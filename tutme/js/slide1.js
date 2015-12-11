@@ -1,0 +1,1 @@
+// Declare parallax on layersjQuery('.parallax-layer').parallax({  mouseport: jQuery("#port"),  yparallax: false,  xorigin: 0,  xparallax: '30px'});
