@@ -1,0 +1,285 @@
+@font-face {    font-family: Segoe UI Light;    src: url(../fonts/segoeuil.ttf) format('truetype');       font-weight:100;}@font-face {    font-family: Segoe UI Italic;    src: url(../fonts/segoeuii.ttf) format('truetype');    font-style: italic;    font-weight: 400;}@font-face {    font-family: SegoeUI BoldItalic;    src: url(../fonts/seguisbi.ttf) format('truetype');    font-style: italic;    font-weight: 600;}@font-face {    font-family: Segoe UI;    src: url(../fonts/segoeui.ttf) format('truetype');    font-weight:normal;}@font-face {    font-family: Segoe UI SemiBold;    src: url(../fonts/seguisb.ttf) format('truetype');    font-weight:600;}@font-face {    font-family: Segoe UI;    src: url(../fonts/segoeuib.ttf) format('truetype');    font-weight:bold;}@font-face {    font-family: Lato Medium;    src: url(../fonts/lato-medium.ttf) format('truetype');    font-weight:normal;}@font-face {    font-family: AppetiteNew;    src: url(../fonts/AppetiteNew.ttf) format('truetype');    font-weight:normal;}/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;    font-family: sans-serif;
+}
+a {	text-decoration: none;}
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}input, button {	outline: 0;}:focus::-webkit-input-placeholder {color: transparent}:focus::-moz-placeholder          {color: transparent}:focus:-moz-placeholder           {color: transparent}:focus:-ms-input-placeholder      {color: transparent}input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}h2 {	font-size: 33.5px;	font-family: Lato Medium;	width: 555px;	line-height: 41px;	margin: 20px 0;}
+
+/* ==========================================================================
+   VP's custom styles
+   ========================================================================== */
+body {	min-width: 1000px;	height: 100%;	margin: 0;	font-size: 14px;	line-height: 1.4;	background: #fefefe;	font-family: 'Lato', sans-serif;	color: #4a4a4a;}.outer {	width: 1000px;	margin: 0 auto;}
+.header .outer {	padding: 6px 0 0;}
+.logo {	float: left;}
+.main-navigation, .top-contact {	float: right;	padding-top: 13px;}.main-navigation {	padding: 20px 20px 0 0;}.top-phone {	font-size: 23px;}.top-phone strong {	color: #5bb438;	font-size: 32px;	font-weight: 900;	padding-left: 3px;}.top-address {	font-size: 15px;	text-align: right;	padding-right: 2px;}
+.main-navigation-item {	float: left;	position: relative;	text-align: center;	margin: 0 2px;}.navigation-current .main-navigation-item__link, .main-navigation-item__link:hover {	background-position: left top;}
+.main-navigation-item__link {	font-size: 8px;	color: #9d9d9d;	text-transform: uppercase;	background: url('../img/menu_bg.png') no-repeat -71px top;	padding: 64px 0 0;	display: inline-block;	width: 65px;	position: relative;}
+.navigation-current .main-navigation-item__link, .main-navigation-item:hover .main-navigation-item__link{	color: #5bb438;}.menu-icon {	display: -moz-inline-stack;	display: inline-block;	font-size: 1px;	line-height: 0;	vertical-align: middle;	overflow: hidden;	width: 34px;	height: 35px;	background: url(../img/menu_icons.png) no-repeat 0 -43px;	position: absolute;	top: 16px;	left: 16px;}.icon-2 {	top: 13px;	background-position: -45px -43px;}.icon-3 {	top: 13px;	background-position: -95px -43px;}.icon-4 {	top: 13px;	background-position: -142px -43px;}.icon-5 {	top: 17px;	background-position: -189px -43px;}.icon-6 {	top: 13px;	background-position: -231px -43px;}.navigation-current .icon-1, .main-navigation-item:hover .icon-1{	background-position: 0 0;} .navigation-current .icon-2, .main-navigation-item:hover .icon-2{	background-position: -45px 0;}.navigation-current .icon-3, .main-navigation-item:hover .icon-3{	background-position: -95px 0;}.navigation-current .icon-4, .main-navigation-item:hover .icon-4{	background-position: -142px 0;}.navigation-current .icon-5, .main-navigation-item:hover .icon-5{	background-position: -189px 0;}.navigation-current .icon-6, .main-navigation-item:hover .icon-6{	background-position: -231px 0;}
+.green-btn {	font-family: Segoe UI SemiBold;	font-weight: 600;	display: inline-block;	font-size: 14px;	color: #fff;	margin: 16px 0;	padding: 5px 25px 6px;	line-height: 20px;	text-shadow: 0 1px 0 #999;	text-align: center;	border-radius: 20px;	-webkit-border-radius: 20px;	background: rgba(170,222,139,1);	background: -moz-linear-gradient(top, rgba(170,222,139,1) 0%, rgba(87,179,54,1) 100%);	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(170,222,139,1)), color-stop(100%, rgba(87,179,54,1)));	background: -webkit-linear-gradient(top, rgba(170,222,139,1) 0%, rgba(87,179,54,1) 100%);	background: -o-linear-gradient(top, rgba(170,222,139,1) 0%, rgba(87,179,54,1) 100%);	background: -ms-linear-gradient(top, rgba(170,222,139,1) 0%, rgba(87,179,54,1) 100%);	background: linear-gradient(to bottom, rgba(170,222,139,1) 0%, rgba(87,179,54,1) 100%);	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aade8b', endColorstr='#57b336', GradientType=0 );}
+.yellow {	color: #fad000;}.visual-text {	width: 495px;	float: right;}.visual-text p {	font-size:25px;	text-transform: uppercase;	margin: 0;	line-height: 25px;}.visual-text p strong {	font-size: 43px;}.top-title {	font-size: 37px;	font-weight: 700;	text-transform: uppercase;	word-spacing: 2px;	margin: 14px 0 7px;	line-height: 50px; }.top-info-text {	padding: 18px 0 0;}
+.top-info-text p, .top-info-text{	font-size: 18px;	text-transform: none;	margin: 0;	font-family: Segoe UI Light;	font-weight: 100;}
+.green-btn.stroke {	 font-size: 22px;	 padding: 13px 47px 15px;	 border-radius: 25px;	 -webkit-border-radius: 25px;	 margin: 0;}
+.stroke-green {	display: inline-block;	background: rgba(133,206,96,1);	background: -moz-linear-gradient(top, rgba(133,206,96,1) 0%, rgba(188,248,158,1) 100%);	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(133,206,96,1)), color-stop(100%, rgba(188,248,158,1)));	background: -webkit-linear-gradient(top, rgba(133,206,96,1) 0%, rgba(188,248,158,1) 100%);	background: -o-linear-gradient(top, rgba(133,206,96,1) 0%, rgba(188,248,158,1) 100%);	background: -ms-linear-gradient(top, rgba(133,206,96,1) 0%, rgba(188,248,158,1) 100%);	background: linear-gradient(to bottom, rgba(133,206,96,1) 0%, rgba(188,248,158,1) 100%);	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85ce60', endColorstr='#bcf89e', GradientType=0 );	padding: 3px;	border-radius: 25px;	-webkit-border-radius: 25px;}.video-box {	width: 340px;	height: 155px;	overflow: hidden;	background: #464646;	margin: 27px 0 35px;}.body {	position: relative;	top: -1px;	padding-top: 40px;}.page {	background: url('../img/main_bg.jpg') no-repeat 0% 100%;	background-size: 100% 100%;}.white-section {	padding-bottom: 30px;}
+.white-section .outer {	border-radius: 7px;	-webkit-border-radius: 7px;	max-width: 1080px;	width: auto;	background-color: #fff;}.inner {	width: 1000px;	margin: 14px auto 0;	overflow: hidden;	}.section-info p{	font-family: Segoe UI Light;	font-weight: 100;	font-size: 16px;	line-height: 24px;	margin-bottom: 25px;}.section-info {	width: 648px;	margin: 22px 0 0;}
+#main-info .outer{	background: url('../img/pic1.jpg') #fff no-repeat 735px 55px;}#about-info .outer {	background: url('../img/pic2.jpg') #fff no-repeat 765px 55px;}#about-us .outer {	background: url('../img/povar.jpg') #fff no-repeat 780px 28px;}.notice {	background: #f4f9f2 url('../img/notice.png') no-repeat 15px center;	min-height: 65px;	border-radius: 8px;	-webkit-border-radius: 8px;	padding: 25px 50px 0 85px;	font-family: Segoe UI Italic;	font-style: italic;	line-height: 18px;	margin: 30px 0 40px;}.jcarousel-wrapper {	position: relative;}.jcarousel {    position: relative;    overflow: hidden;    width: 935px;    margin-left: 67px;}
+.jcarousel ul {    width: 20000em;    position: relative;    list-style: none;    margin: 0;    padding: 0;}.jcarousel li {    display: inline-block;    width: 187px;    min-height: 142px;}.jcarousel li img {	vertical-align: bottom;}/** Carousel Controls **/.jcarousel-control-prev,.jcarousel-control-next {    position: absolute;    top: 50px;	width: 0; 	height: 0; 	border-top: 11px solid transparent;	border-bottom: 11px solid transparent;	border-left: 18px solid #5bb438;}.jcarousel-control-prev {    left: -15px;    border-left: 18px solid transparent;    border-right: 18px solid #5bb438;}.jcarousel-control-next {    right: 0px;}.jcarousel-control-prev:hover span,.jcarousel-control-next:hover span {    display: block;}.jcarousel-control-prev.inactive,.jcarousel-control-next.inactive {    cursor: default;}.jcarousel-control-prev.inactive {	border-right-color: #e1e1e1;}.jcarousel-control-next.inactive {	border-left-color: #e1e1e1;}/* -- FORM -- */.form-section {	padding: 20px 0 50px;}.form-section form {	padding-left: 68px;}.form-fld {	display: inline-block;	padding-right: 34px;}.form-inp {	background: #fff;	border: none;	height: 48px;	border-radius: 25px;	-webkit-border-radius: 25px;	padding:0 20px;	font-size: 16px;	color: #b4b4b4;	font-family: Segoe UI;	width: 200px;}.form-section .green-btn.stroke {	padding: 13px 30px 15px;}/** About-info **/.prod-info {	display: inline-block;	background:  url('../img/img_bg.jpg') no-repeat left top;	width: 325px;	padding: 47px 0 50px;	border-radius: 50%;	height: 227px;	margin-right: 55px;}.prod-info_item {	border-radius: 25px 0 0 25px;	-webkit-border-radius: 25px 0 0 25px;	padding: 0 0 0 51px;	position: relative;	height: 228px;	float: right;	background: rgba(171,224,142,1);	background: -moz-linear-gradient(top, rgba(171,224,142,1) 0%, rgba(83,176,49,1) 100%);	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(171,224,142,1)), color-stop(100%, rgba(83,176,49,1)));	background: -webkit-linear-gradient(top, rgba(171,224,142,1) 0%, rgba(83,176,49,1) 100%);	background: -o-linear-gradient(top, rgba(171,224,142,1) 0%, rgba(83,176,49,1) 100%);	background: -ms-linear-gradient(top, rgba(171,224,142,1) 0%, rgba(83,176,49,1) 100%);	background: linear-gradient(to bottom, rgba(171,224,142,1) 0%, rgba(83,176,49,1) 100%);	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abe08e', endColorstr='#53b031', GradientType=0 );}.trns-title {	color: #fff;	font-size: 18px;	font-family: Lato Medium;	position: absolute;	bottom: -25px;	text-align: center;	left: 11px;	width: 228px;	-webkit-transform-origin: 0 0;	-moz-transform-origin:    0 0;	-ms-transform-origin:     0 0;	-o-transform-origin:      0 0;		-webkit-transform: rotate(-90deg); 	-moz-transform:    rotate(-90deg); 	-ms-transform:     rotate(-90deg); 	-o-transform:      rotate(-90deg);}.item-wrp {	background: #fff;	height: 228px;	overflow: hidden;	width: 0;	padding-left: 47px;}.info-fld {	font-size: 16px;	font-family: Segoe UI SemiBold;	font-weight: 600;	padding: 14px 0 0 16px;}.info-fld p {	font-size: 14px;	font-family: Segoe UI Light;	font-weight: 100;	margin: 10px 0 5px;}.prod-info-wrp {	padding: 65px 0 55px;}.section-info .section-info-more {	font-family: Segoe UI Italic;	font-style: italic;	font-size: 14px;	color: #b7b7b7;	text-align: right;}.blue-btn {	color: #fff;	font-family: Segoe UI SemiBold;	font-weight: 600;	font-style: normal;	display: inline-block;	font-size: 20px;	margin: 10px 45px 16px 15px;	padding: 11px 33px 13px;	line-height: 20px;	text-shadow: 0 1px 0 #777;	text-align: center;	border-radius: 20px;	-webkit-border-radius: 20px;	background: rgba(153,190,219,1);	background: -moz-linear-gradient(top, rgba(153,190,219,1) 0%, rgba(66,116,170,1) 100%);	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(153,190,219,1)), color-stop(100%, rgba(66,116,170,1)));	background: -webkit-linear-gradient(top, rgba(153,190,219,1) 0%, rgba(66,116,170,1) 100%);	background: -o-linear-gradient(top, rgba(153,190,219,1) 0%, rgba(66,116,170,1) 100%);	background: -ms-linear-gradient(top, rgba(153,190,219,1) 0%, rgba(66,116,170,1) 100%);	background: linear-gradient(to bottom, rgba(153,190,219,1) 0%, rgba(66,116,170,1) 100%);	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99bedb', endColorstr='#4274aa', GradientType=0 );}.wall-info {	background:  url('../img/wall.jpg') no-repeat left top;	font-family: AppetiteNew;	color: #fff;	font-size: 16px;	padding-left: 35px;	margin: 50px 0 118px;	position: relative;	}.wall-item {	text-align: center;	width: 185px;	float: left;}.wall-item:last-child {	width: 196px;}.wall-title {	font-size: 38.5px;	text-align: center;	padding: 21px 0 27px;}.number-item {	font-size: 80px;	background: url('../img/circle.png') no-repeat center top;	text-align: center;	padding: 0 0 6px;	line-height: 88px;	height: 112px;}.wall-item p{	font-size: 26px;	margin-bottom: 10px;}.wall-item span {	display: block;	padding: 0px 0 17px;}.btn-fld {	text-align: center;	padding: 20px 31px 0 0;}.btn-fld .green-btn.stroke {	width: 150px;}.sign-blk {	position: absolute;	bottom: -70px;	right: -75px;	background:  url('../img/wall_pic.png') no-repeat right top;	width: 255px;	padding: 170px 100px 0 0;	color: #4a4a4a;	font-size: 15px;	font-family: Segoe UI Italic;	font-style: italic;}#about-us .inner {	overflow: visible;}#about-us h2 {	margin: 44px 0 -6px;}.aside-photo-info {	float: right;	text-align: center;}.aside-photo-info a span {	display: block;	font-size: 15px;	font-family: Segoe UI Italic;	font-style: italic;	color: #54a0ee;	padding: 6px 0 0;}.aside-photo-info p {	margin: 18px 0 67px;}.photo-info p {	margin-bottom: 35px;}.photo-info .section-info {	width: 570px;}.testimonial {display: inline-block;vertical-align: top;overflow: hidden;margin: 45px 0 30px;position: relative;width: 490px;}.testimonial:nth-child(2n+1) {	margin-right: 15px;}.tml-image {float: right;height: 85px;width: 85px;border-radius: 50%;overflow: hidden;margin-left: 20px;}.title-item, .tml-name {text-align: left;display: block;}.tml-name {font-size: 16px;font-family: SegoeUI BoldItalic;font-style: italic;font-weight: 600;padding: 6px 0 4px;}.testimonial:nth-child(2n+1) .tml-image {	float: left;	margin-right: 20px;	margin-left: 0;}.tml-content {overflow: hidden;padding: 10px 40px 20px 20px;background: #fff;border-radius: 8px;-webkit-border-radius: 8px;width: 320px;margin-top: 30px;}.testimonial:after {	content: ' ';	position: absolute;	top: 30px;	left: 95px;	width: 0px;	height: 0px;	border-style: solid;	border-width: 10px 10px 0 10px;	border-color: #fff transparent transparent transparent;}.testimonial:nth-child(2n):after  {	left: auto;	right: 100px;}.tml-content p {font-size: 15px;font-family: Segoe UI Italic;font-style: italic;margin: 0;line-height: 22px;}.trsp-section h2, #contact h2 {	text-align: center;	width: auto;}#reviews {	padding: 20px 0 18px;}#contact  {	padding: 0;}#contact .outer{	background: none;}#map {height: 530px;width: 100%;border-radius: 8px 8px 0 0;-webkit-border-radius: 8px 8px 0 0;margin: 30px 0 0;}.white-section.footer .outer {	background: none;}.white-section.footer {	padding-bottom: 0px;	background:  url('../img/footer_bg.jpg') no-repeat 0% 0%;	background-size: 100% 100%;	margin-top: -2px;}.wrp-footer__row {	background: #fff;	padding-bottom: 16px;}.footer__row {	width: 1000px;	margin: 0px auto 0;	overflow: hidden;	padding: 62px 0 0;}footer .top-contact {	float: none;	padding-top: 34px;}.footer__col-1, .footer__col-2, .footer__col-3 {	float: left;}.footer__col-1 {	width: 370px;}.footer__col-1 .top-contact{	padding-left: 22px;}.footer__col-1 .top-address {	text-align: left;	font-size: 16px;}.f-fld {	margin: 14px 0 2px;}.footer .logo {	padding: 15px 0 0;}.social-icon {	padding: 32px 0 52px;}.social-icon li {display: inline-block;padding-right: 26px;}.f-icon {display: inline-block;width: 44px;height: 44px;background: url('../img/social_btn.png') no-repeat left top;}.i-fcb {background-position: -63px 0;}.i-tw {background-position: -125px 0;}.i-odn {background-position: -187px 0;}.footer__col-2 span {	display: block;	font-size: 28.5px;	font-family: Lato Medium;}.footer__col-2 .green-btn {	padding: 13px 37px 15px;}.footer__col-2 .stroke-green {	margin-left: 5px;}.footer__col-3  {	width: 280px;	margin-left: 57px;}.footer__col-3 .top-phone {	color: #5bb438;	font-size: 22px;	font-weight: 900;}.footer__col-3 .top-phone span {	display: block;	line-height: 21px;}.footer__col-3 .top-contact {	padding-bottom: 75px;}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+.text-right {	text-align: right;}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,.clearfix:after, .outer:before, .outer:after {    content: " "; /* 1 */    display: table; /* 2 */}.clearfix:after, .outer:after {    clear: both;}/* * For IE 6/7 only * Include this rule to trigger hasLayout and contain floats. */.clearfix, .ie .outer {    *zoom: 1;}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (max-width: 1150px) {
+    #about-us {    	overflow: hidden;    }
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}.lt-ie9 li {	list-style: none;}

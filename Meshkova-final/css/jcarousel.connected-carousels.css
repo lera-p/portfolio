@@ -1,0 +1,148 @@
+/** Stage container **/
+.connected-carousels {	padding: 25px 0 0;}
+.connected-carousels .stage {
+    width: 830px;
+    margin: 20px auto;
+    position: relative;    background: #fff;
+}
+
+.connected-carousels .photo-credits a {
+    color: #fff;
+}
+
+/** Navigation container **/
+
+.connected-carousels .navigation {
+    width: 663px;
+    margin: 38px auto 0;
+    position: relative;
+}
+
+/** Shared carousel styles **/
+
+.connected-carousels .carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+.connected-carousels .carousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.connected-carousels .carousel li {
+    float: left;
+}
+
+/** Stage carousel specific styles **/
+.carousel-stage li {	width: 830px;	text-align: center;	overflow: hidden;}
+.connected-carousels .carousel-stage {
+    height: 365px;
+    -webkit-box-shadow: 0 39px 53px -10px #A0B4C0;
+       -moz-box-shadow: 0 39px 53px -10px #A0B4C0;
+            box-shadow: 0 39px 53px -10px #A0B4C0;
+}
+
+/** Navigation carousel specific styles **/
+
+.connected-carousels .carousel-navigation {
+    height: 110px;
+    width: 663px;
+}
+
+.connected-carousels .carousel-navigation li {
+    cursor: pointer;    margin-right: 18px;    -webkit-box-shadow: 0 1px 14px -2px #A3BBCA;       -moz-box-shadow: 0 1px 14px -2px #A3BBCA;            box-shadow: 0 1px 14px -2px #A3BBCA;
+}
+
+.connected-carousels .carousel-navigation li img {
+    display: block;    width: 150px;    padding-top: 2px;
+}
+
+.connected-carousels .carousel-navigation li.active img {
+    border: 2px solid #ffda00;    padding-top: 0;
+}
+
+/** Stage carousel controls **/
+
+.connected-carousels .prev-stage,
+.connected-carousels .next-stage {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 305px;
+    height: 410px;
+    color: #fff;
+}
+
+.connected-carousels .prev-stage {
+    left: 0;
+}
+
+.connected-carousels .next-stage {
+    right: 0;
+}
+
+.connected-carousels .prev-stage.inactive,
+.connected-carousels .next-stage.inactive {
+    
+}
+
+.connected-carousels .prev-stage span,
+.connected-carousels .next-stage span {
+    position: absolute;
+    top: 33%;
+    width: 50px;
+    height: 110px;
+    text-align: center;
+    text-decoration: none;    display: block;    background:  url('../img/arrows.png') no-repeat 0 -117px;
+}
+
+.connected-carousels .prev-stage span {
+    left: -50px;
+}
+
+.connected-carousels .next-stage span {
+    right: -50px;    background-position: -68px -117px;
+}
+
+/** Navigation carousel controls **/
+
+.connected-carousels .prev-navigation,
+.connected-carousels .next-navigation {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 16px/29px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+       -moz-border-radius: 30px;
+            border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;
+}
+
+.connected-carousels .prev-navigation {
+    left: -15px;
+    top: 22px;
+    text-indent: 6px;
+}
+
+.connected-carousels .next-navigation {
+    right: -15px;
+    top: 22px;
+    text-indent: 20px;
+}
+
+.connected-carousels .prev-navigation.inactive,
+.connected-carousels .next-navigation.inactive {
+    cursor: default;
+}.connected-carousels .prev-stage.inactive span{	background-position: 0px 0;}.connected-carousels .next-stage.inactive span {	background-position: -68px 0px;}/** Carousel-BOTTOM **/
+.jcarousel-wrapper {    margin: 20px auto;    position: relative;    width: 557px;    height: 370px;}.reviews-slider {	width: 1000px;}.jcarousel {    position: relative;    overflow: hidden;}.reviews-slider .jcarousel {	padding-left: 16px;}.jcarousel ul {    width: 20000em;    position: relative;    list-style: none;    margin: 0;    padding: 0;}.jcarousel li {    float: left;    width: 557px;    height: 358px;    background:  url('../img/slide_bg.jpg') no-repeat left top;    color: #fff;}.reviews-slider li {	background: none;	width: 1000px;	color: #4b4b4b;}.avatar-box {	border: 4px dashed #e1e1e1;	border-radius: 50%;	height: 200px;	width: 200px;	float: left;}.reviews-slider .slide-content {	padding: 30px 255px 0 47px;}.avatar {	position: relative;	margin: 12px 0 0 13px;	text-align: center;	border-radius: 50%;	height: 174px;	width: 174px;	background: rgba(44,123,226,1);	background: -moz-linear-gradient(left, rgba(44,123,226,1) 0%, rgba(102,175,240,1) 100%);	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(44,123,226,1)), color-stop(100%, rgba(102,175,240,1)));	background: -webkit-linear-gradient(left, rgba(44,123,226,1) 0%, rgba(102,175,240,1) 100%);	background: -o-linear-gradient(left, rgba(44,123,226,1) 0%, rgba(102,175,240,1) 100%);	background: -ms-linear-gradient(left, rgba(44,123,226,1) 0%, rgba(102,175,240,1) 100%);	background: linear-gradient(to right, rgba(44,123,226,1) 0%, rgba(102,175,240,1) 100%);	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c7be2', endColorstr='#66aff0', GradientType=1 );}.avatar:before{	content: "";	background: url('../img/cut_s.png') no-repeat left top;	display: block;	height: 34px;	width: 34px;	position: absolute;	top: 10px;	left: -34px;}.avatar img {	padding-top: 50px;}.reviews-slider p {	line-height: 24px;}/** Carousel Controls **/.jcarousel-control-prev,.jcarousel-control-next {    position: absolute;    top: 195px;	width: 0; 	height: 0; 	border-top: 10px solid transparent;	border-bottom: 10px solid transparent;	border-left: 10px solid #3c83e6;}.reviews-slider .jcarousel-control-prev, .reviews-slider .jcarousel-control-next {	top: 255px;}.jcarousel-control-prev {    left: -100px;    border-left: 10px solid transparent;    border-right: 10px solid #3c83e6;}.reviews-slider .jcarousel-control-prev {	left: 155px;}.jcarousel-control-next {    right: -50px;}.reviews-slider .jcarousel-control-next {    right: 160px;}.jcarousel-control-prev:hover span,.jcarousel-control-next:hover span {    display: block;}.jcarousel-control-prev.inactive,.jcarousel-control-next.inactive {    cursor: default;}.jcarousel-control-prev.inactive {	border-right-color: #ababab;}.jcarousel-control-next.inactive {	border-left-color: #ababab;}/** Carousel Pagination **/.jcarousel-pagination {    position: absolute;    bottom: -40px;    left: 50%;    -webkit-transform: translate(-50%, 0);    -ms-transform: translate(-50%, 0);    transform: translate(-50%, 0);    margin: 0;}.jcarousel-pagination a {    text-decoration: none;    display: inline-block;    font-size: 11px;    height: 12px;    width: 12px;    line-height: 10px;    background: #ebebeb;    color: #4E443C;    border-radius: 10px;    text-indent: -9999px;    margin-right: 12px;}.jcarousel-pagination a.active {    background: #3c83e6;    color: #fff;    opacity: 1;}/*-- SLIDE COntent --*/.bottom-sliders {	padding: 8px 0;}.slider-box {	padding: 1px 0 0;	display: none;}.slider-box.visible {	display: block;}.carousel-box {	background: url('../img/left_bg.jpg') no-repeat left top;}.carousel-box2 {	background: url('../img/right_bg.jpg') no-repeat right top;}.slide-title {	font-size: 24px;	font-family: EtelkaLightPro;} .slide-content {	overflow: hidden;	padding: 85px 80px 0 20px;	overflow: hidden;}.slide-text {	line-height: 30px;} .slide-text strong{	font-family: 'EtelkaMediumPro', sans-serif;	font-size: 25px;}.number {	font-family: 'EtelkaMediumPro', sans-serif;	font-size: 30px;	display: inline-block;	width: 50px;	height: 50px;	border: 3px solid #fff;	border-radius: 50%;	-webkit-border-radius: 50%;	float: left;	margin: 140px 0 0 50px;	text-align: center;	line-height: 51px;}
