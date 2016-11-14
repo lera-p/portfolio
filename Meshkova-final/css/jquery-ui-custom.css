@@ -1,0 +1,170 @@
+/*! jQuery UI - v1.10.3 - 2013-12-24
+* http://jqueryui.com
+* Includes: jquery.ui.core.css, jquery.ui.selectable.css, jquery.ui.progressbar.css, jquery.ui.slider.css
+* Copyright 2013 jQuery Foundation and other contributors; Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+	display: none;
+}
+.ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+.ui-helper-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+	clear: both;
+}
+.ui-helper-clearfix {
+	min-height: 0; /* support: IE7 */
+}
+.ui-helper-zfix {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	filter:Alpha(Opacity=0);
+}
+
+.ui-front {
+	z-index: 100;
+}
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+	cursor: default !important;
+}
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-selectable-helper {
+	position: absolute;
+	z-index: 100;
+	border: 1px dotted black;
+}
+.ui-progressbar {
+	height: 2em;
+	text-align: left;
+	overflow: hidden;
+}
+.ui-progressbar .ui-progressbar-value {
+	left: 7px;	top: 19px;	position: relative;
+}
+.ui-progressbar .ui-progressbar-overlay {
+	background: url("images/animated-overlay.gif");
+	height: 100%;
+	filter: alpha(opacity=25);
+	opacity: 0.25;
+}
+.ui-progressbar-indeterminate .ui-progressbar-value {
+	background-image: none;
+}
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+
+/* For IE8 - See #6727 */
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range {
+	filter: inherit;
+}
+.wrp-slider {	background: #EFEFEF;	height: 23px;	width: 275px;	display: block;	float: left;	margin: 17px 0 0;	-webkit-box-shadow: inset 0px 1px 6px rgba(0, 0, 0, 0.2);	-moz-box-shadow: inset 0px 1px 6px rgba(0, 0, 0, 0.2);	box-shadow: inset 0px 1px 6px rgba(0, 0, 0, 0.2);	-webkit-border-radius: 10px;	-moz-border-radius: 10px;	-ms-border-radius: 10px;	-o-border-radius: 10px;	border-radius: 10px;}
+.ui-slider-horizontal, .amount-step .ui-progressbar {	width: 91%;	height: 23px;
+}.slider-range-search, .slider-range-matching  {	margin-bottom: 5px;	background: #1f1f1f;}.slider-range-matching {	width: 50%;	margin-left: 50%;}.amount-step .ui-progressbar {	background: url('../img/steps_bg.png') no-repeat left top;	border: none;	height: 4em;	width: 585px;	padding-right: 20px;}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -3px;
+	/*margin-left: -1.9em;*/	margin-left:-8px;	width: 40px;	height: 35px;	border-radius: 50%;	background: url('../img/handle.png') no-repeat left top;
+}.slider-range-search .ui-slider-handle  {	margin-left: -1px;}.ui-progressbar .ui-progressbar-value span {	width: 44px;	height: 55px;	background: #ffdc00	display: block;	top: -17px;	right: -14px;	position: absolute;}
+.ui-slider-horizontal .ui-slider-range, .ui-progressbar-value {
+	height: 8px;	margin: 7px 0 0 11px;	background: #ffdc00; /* Old browsers */	border-radius: 5px 0 0 5px;	-webkit-border-radius: 5px 0 0 5px;	-webkit-box-shadow:  0px 1px 2px rgba(0, 0, 0, 0.2);	-moz-box-shadow:  0px 1px 2px rgba(0, 0, 0, 0.2);	box-shadow:  0px 1px 2px rgba(0, 0, 0, 0.2);	
+}.slider-range-search  .ui-slider-range, .ui-progressbar-value, .slider-range-matching  .ui-slider-range, .ui-progressbar-value, .sld-matching-box  {	background: #ffdc00;	border-radius: 5px 0 0 5px;	-webkit-border-radius: 5px 0 0 5px;	}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}.ui-state-focus {	outline: none!important;}
